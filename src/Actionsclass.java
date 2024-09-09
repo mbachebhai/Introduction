@@ -17,7 +17,7 @@ public class Actionsclass {
 			WebElement Element = driver.findElement(By.id("nav-link-amazonprime"));
 			a.moveToElement(Element).build().perform();
 			a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).doubleClick().keyDown(Keys.BACK_SPACE).build().perform();
-
+			System.out.println("Hello World");
 		}
 	}
 }
